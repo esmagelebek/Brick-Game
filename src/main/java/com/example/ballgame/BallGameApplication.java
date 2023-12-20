@@ -24,7 +24,7 @@ public class BallGameApplication extends Application {
     public void start(Stage stage) {
         Scene scene = new Scene(new Game(), width, height);
         stage.setScene(scene);
-        stage.setResizable(true);
+        stage.setResizable(false);
         stage.show();
     }
 
